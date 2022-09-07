@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'; //names import are enclosed with curly bracket
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'; //named import are enclosed with curly bracket
 import HomeScreen from './screens/HomeScreen';
 import ProductScreen from './screens/ProductScreen';
 import Navbar from 'react-bootstrap/Navbar';

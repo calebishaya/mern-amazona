@@ -45,3 +45,8 @@
 10. Add Boostrap UI Framework
     npm install react-bootstrap bootstrap
     update App.js
+
+11. Create product and rating Component
+    create rating components
+    create product component
+    use rating component in product component
