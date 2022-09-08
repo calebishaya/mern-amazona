@@ -64,3 +64,6 @@
     define reducer
     create stoe provider
     implement add to cart button click handler
+15. Complete Add to Cart
+    check exist item in the cart
+    check count in stock in backend
