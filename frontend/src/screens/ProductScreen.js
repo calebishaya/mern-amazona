@@ -54,9 +54,9 @@ function ProductScreen() {
   const { cart } = state;
   const addToCartHandler = async () => {
     const existItem = cart.cartItems.find((x) => x._id === product._id);
-    //console.log(cart.cartItems[0]);
+
     const quantity = existItem ? existItem.quantity + 1 : 1;
-    //console.log(quantity);
+
     const { data } = await axios.get(`/api/products/${product._id}`);
     if (data.countInStock < quantity) {
       window.alert('Sorry, Product out of stock!');

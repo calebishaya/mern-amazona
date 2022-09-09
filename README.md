@@ -63,7 +63,7 @@
     Create react Context
     define reducer
     create stoe provider
-    implement add to cart button click handler
+    implement add to cart button create handler
 15. Complete Add to Cart
     check exist item in the cart
     check count in stock in backend
@@ -71,3 +71,7 @@
     create 2 columns
     display items list
     create action column
+17. Complete Cart Screen
+    create handler for inc/dec item
+    create handler for remove item
+    create handler for checkout
