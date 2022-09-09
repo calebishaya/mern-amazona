@@ -75,3 +75,7 @@
     create handler for inc/dec item
     create handler for remove item
     create handler for checkout
+18. Create Signin Screen
+    create signin form
+    add email and password
+    add signin button

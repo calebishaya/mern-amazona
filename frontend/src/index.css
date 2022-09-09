@@ -51,3 +51,18 @@ main {
 .img-thumbnail {
   height: 80px;
 }
+
+.small-container {
+  max-height: 600px;
+}
+
+.signin-title {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.signin-card {
+  padding: 1.5rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
