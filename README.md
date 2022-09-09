@@ -79,3 +79,8 @@
     create signin form
     add email and password
     add signin button
+19. Connect to mongo Database
+    create atlas mongodb database
+    install local mongodb database
+    npm install mongoose
+    connect to mongodb database
