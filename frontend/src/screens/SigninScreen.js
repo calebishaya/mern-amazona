@@ -47,10 +47,10 @@ export default function SigninScreen() {
       <Helmet>
         <title>Sign in</title>
       </Helmet>
-      <div className="signin-title">
+      <div className="step-title">
         <h1 className="my-3">Sign In</h1>
       </div>
-      <Card className="signin-card">
+      <Card className="step-card">
         <Form onSubmit={submitHandler}>
           <Form.Group className="mb-3" controlId="email">
             <Form.Label>Email</Form.Label>

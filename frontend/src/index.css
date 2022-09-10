@@ -56,14 +56,14 @@ main {
   max-width: 600px;
 }
 
-.signin-title {
-  max-width: 600px;
+.step-title {
+  max-width: 450px;
   margin: 0 auto;
 }
 
-.signin-card {
+.step-card {
   padding: 1.5rem;
-  max-width: 600px;
+  max-width: 450px;
   margin: 0 auto;
 }
 
