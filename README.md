@@ -95,14 +95,18 @@
     seed sample users
     create user routes
 22. Create Signin Backend API
-    create signin api
-    npm install jsonwebtoken
-    define generateToken
+    1. create signin api
+    2. npm install jsonwebtoken
+    3. define generateToken
 23. Complete Signin Screen
-    Handle submit action
-    save token in store and local storage
-    show user name in header
+    1. Handle submit action
+    2. save token in store and local storage
+    3. show user name in header
 24. Create shipping screen
-    create form inputs
-    handle save shipping address
-    add checkout wizard bar
+    1. create form inputs
+    2. handle save shipping address
+    3. add checkout wizard bar
+25. Create Sign Up Screen
+    1. create input forms
+    2. handle submit
+    3. create backend api
