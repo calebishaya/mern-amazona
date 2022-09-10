@@ -53,16 +53,32 @@ main {
 }
 
 .small-container {
-  max-height: 600px;
+  max-width: 600px;
 }
 
 .signin-title {
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
 .signin-card {
   padding: 1.5rem;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
+}
+
+.form-card {
+  padding: 1.5rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid #f08000;
+  color: #f08000;
 }

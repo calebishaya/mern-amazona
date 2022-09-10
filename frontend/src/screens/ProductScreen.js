@@ -12,6 +12,7 @@ import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
 import { getError } from '../utils';
 import { Store } from '../Store';
+import { toast } from 'react-toastify';
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -59,7 +60,7 @@ function ProductScreen() {
 
     const { data } = await axios.get(`/api/products/${product._id}`);
     if (data.countInStock < quantity) {
-      window.alert('Sorry, Product out of stock!');
+      toast.error('Sorry, Product out of stock!');
       return;
     }
 
