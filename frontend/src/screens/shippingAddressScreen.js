@@ -55,8 +55,10 @@ export default function ShippingAddressScreen() {
       <CheckoutSteps step1 step2></CheckoutSteps>
 
       <div className="container small-container">
-        <h1 className="my-3 mb-5">Shipping Address</h1>
-        <Card className="form-card">
+        <div className="step-title">
+          <h1 className="my-3 mb-5">Shipping Address</h1>
+        </div>
+        <Card className="step-card">
           <Form onSubmit={submitHandler}>
             <Form.Group className="mb-3" controlId="fulname">
               <Form.Label>Full Name</Form.Label>
