@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { useEffect, useReducer } from 'react';
 import axios from 'axios';
 import logger from 'use-reducer-logger';
@@ -8,6 +8,8 @@ import Product from '../components/Product';
 import { Helmet } from 'react-helmet-async';
 import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
+import { Store } from '../Store';
+import { useNavigate } from 'react-router-dom';
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -23,6 +25,17 @@ const reducer = (state, action) => {
 };
 
 function HomeScreen() {
+  const { state, dispatch: ctxDispatch } = useContext(Store);
+  const navigate = useNavigate();
+
+  const { userInfo } = state;
+
+  useEffect(() => {
+    if (!userInfo) {
+      navigate('/signin?redirect=/');
+    }
+  }, [navigate, userInfo]);
+
   const [{ loading, error, products }, dispatch] = useReducer(logger(reducer), {
     loading: true,
     products: [],

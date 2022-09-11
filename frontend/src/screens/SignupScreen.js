@@ -62,10 +62,10 @@ export default function SignupScreen() {
       <Helmet>
         <title>Sign Up</title>
       </Helmet>
-      <div className="steps-title">
+      <div className="step-title">
         <h1 className="my-3">Sign Up</h1>
       </div>
-      <Card className="steps-card">
+      <Card className="step-card">
         <Form onSubmit={submitHandler}>
           <Form.Group className="mb-3" controlId="name">
             <Form.Label>Name</Form.Label>
