@@ -30,11 +30,11 @@ function HomeScreen() {
 
   const { userInfo } = state;
 
-  useEffect(() => {
+  /* useEffect(() => {
     if (!userInfo) {
       navigate('/signin?redirect=/');
     }
-  }, [navigate, userInfo]);
+  }, [navigate, userInfo]); */
 
   const [{ loading, error, products }, dispatch] = useReducer(logger(reducer), {
     loading: true,
