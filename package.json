@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/calebishaya/mern-amazona#readme",
   "engines": {
-    "node": "16.17.0",
+    "node": "16.16.0",
     "npm": "8.15.0"
   },
   "dependencies": {
