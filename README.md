@@ -137,4 +137,9 @@
 31. Display Order Hostory
     1. create order screen
     2. create order hostory api
-    3. use api in the frontend
+    3. use api in the
+32. Create Profile Screen
+    1. get user info from context
+    2. show user information
+    3. create user update api
+    4. update user info
